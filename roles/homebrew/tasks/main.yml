@@ -1,3 +1,4 @@
+# CLIツールをインストール
 - block:
   - name: homebrew update/upgrade
     homebrew:

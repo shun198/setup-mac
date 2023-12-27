@@ -1,0 +1,22 @@
+# https://formulae.brew.sh/cask/
+packages:
+  # --- Terminal ---
+  - { name: iterm2, state: present }
+
+  # --- Development ---
+  - { name: visual-studio-code, state: present }
+  - { name: docker, state: present}
+  - { name: google-chrome, state: present}
+  - { name: figma, state: present}
+  - { name: drawio, state: present}
+  - { name: postman, state: present}
+  - { name: dbeaver-community, state: present}
+
+
+  # --- Utility ---
+  - { name: slack, state: present }
+  - { name: notion, state: present}
+  - { name: rectangle, state: present}
+  - { name: skitch, state: present}
+  - { name: clipy, state: present}
+  - { name: zoom, state: present}
