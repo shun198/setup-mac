@@ -1,0 +1,14 @@
+taps:
+  - homebrew/cask
+  - homebrew/cask-versions
+  - homebrew/cask-fonts
+  - homebrew/core
+
+packages:
+  # --- Terminal ---
+  - { name: tree, state: present }
+
+  # --- Development ---
+  - { name: git, state: present }
+  - { name: anyenv, state: present }
+  - { name: aws-vault, state: present }
